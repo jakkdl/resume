@@ -1,0 +1,234 @@
+% resume.tex
+% vim:set ft=tex spell:
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[letterpaper,margin=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{mdwlist}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{tgpagella}
+\usepackage{hyperref}
+\pagestyle{empty}
+\setlength{\tabcolsep}{0em}
+
+% indentsection style, used for sections that aren't already in lists
+% that need indentation to the level of all text in the document
+\newenvironment{indentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% opposite of above; bump a section back toward the left margin
+\newenvironment{unindentsection}[1]%
+{\begin{list}{}%
+	{\setlength{\leftmargin}{-0.5#1}}%
+	\item[]%
+}
+{\end{list}}
+
+% format two pieces of text, one left aligned and one right aligned
+\newcommand{\headerrow}[2]
+{\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+	#1 &
+	#2 \\
+\end{tabular*}}
+
+% make "C++" look pretty when used in text by touching up the plus signs
+\newcommand{\CPP}
+{C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
+
+% and the actual content starts here
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{John Litborn}}
+
+    john.litborn@pm.me
+    \ \textbullet \ \ 
+    Linköping, Sweden
+\end{center}
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Experience}
+
+\begin{itemize}
+    \parskip=0.1em
+
+    \item
+    \headerrow
+        {\textbf{Education group for Programming and Programming
+        Didactics}}
+        {\textbf{Linköping University}}
+    \\
+    \textbf{Department of Computer and Information Science}
+    \\
+    \headerrow
+        {\emph{Amanuensis, Course Assistant}}
+        {\emph{2013 -- 2017}}
+    \begin{itemize*}
+        \item Recruited my second year at university, I taught courses in Python,
+            \CPP, Ada and Matlab.
+        \item Primarily introductory courses, where I held lessons with repetition
+            and shared problem solving, lab assistant where I answered questions and
+            helped solve problems, and correcting lab hand-ins and exams.
+        \item Later on I also held more advanced courses, teaching the \CPP  standard
+            library, git, object-oriented programming or unit-testing.
+            I was also advisor on projects and grading documentation
+            and hand-ins, and as head assistant taking on light
+            administrative and managerial duties.
+    \end{itemize*}
+
+    \item
+    \headerrow
+        {\textbf{Division for Artificial Intelligence \& Integrated Computer Systems}}
+        {\textbf{Linköping University}}
+    \\
+    \textbf{Department of Computer and Information Science}
+    \\
+    \headerrow
+        {\emph{Course Developer, Software Developer}}
+        {\emph{Summer of 2014 \& 2015}}
+    \begin{itemize*}
+        \item After being unhappy with a course and it's software and
+            bringing it up to the professor, I was offered a summer job
+            to improve it. Where I remade the assignments and improved the
+            Python API for XPilot, a 2D multiplayer space shooter, that was
+            used in the course.
+        \item Using what I had learned in my teaching and my experience from
+            the course I overhauled the structure of the assignments, changed,
+            removed and added several ones and wrote better and clearer
+            instructions and documentation, most of it in HTML.
+        \item The XPilot-AI API in use was developed at Connecticut College,
+            and after discussions with them I forked the project and begun
+            modifying it to fix bugs and add features to suit our needs.
+        \item My second year working on it I also started modifying the
+            XPilot source code, written in C with heavy use of macros, and
+            modified its network protocol to send more data so the client-side
+            API for example didn't have to re-calculate the speed of objects.
+        \item Source Code: \url{https://github.com/h00701350103/XPilot-AI_LiU_fork}
+    \end{itemize*}
+
+    \item
+    \headerrow
+            {\textbf{Ericsson, HiQ}}
+            {\textbf{Linköping}}
+    \\
+    \headerrow
+            {\emph{IT-Consultant}}
+            {\emph{2017}}
+    \begin{itemize*}
+            \item Updated 4G base-station unit tests written in Erlang to work
+                in a virtualized environment. I was the git-master in my team,
+                and helped the other team members when they encountered problems
+                with Git or Linux.
+            \item I was also responsible for updating our sections on the
+                internal Wiki, and wrote python and bash scripts to simplify
+                rote tasks.
+    \end{itemize*}
+
+\end{itemize}
+
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Education}
+
+\begin{itemize}
+    \parskip=0.1em
+
+    \item 
+    \textbf{Linköping University}
+    \\
+    \headerrow
+        {\emph{Faculty of Science and Engineering, Computer Engineering}}
+        {\emph{2012 -- 2014, 2020-2021}}
+    \begin{itemize*}
+        \item Finished courses worth 120 credits, equivalent to 4 semesters of
+            full-time studies.
+        \item I have almost exclusively studied part-time though, early on
+            because of parallel work at the university, later on because of
+            mental health issues.
+        \item My second year I won a programming competition in a course on
+            Computer Hardware and Architecture,
+            which consisted of writing a sorting algorithm in microcode for
+            a low-level simulated computer. My solution also beat the
+            professors best implementation, and outclassed the previous student
+            record.
+    \end{itemize*}
+
+\end{itemize}
+
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Core Technical Skills}
+
+\begin{indentsection}{\parindent}
+\hyphenpenalty=1000
+\begin{description*}
+	\item[Languages:]
+	Python, C, \CPP, Ada
+	\item[Tools:]
+            Arch Linux, NeoVim, git, GNU Debugger, Python Debugger (pdb), mypy
+\end{description*}
+\end{indentsection}
+
+
+\hrule
+\vspace{-0.4em}
+\subsection*{Personal Projects}
+
+\begin{itemize}
+    \parskip=0.1em
+
+    \item 
+    \textbf{Crypt of the Necrodancer}
+    \\
+    \headerrow
+        {\emph{Faculty of Science and Engineering, Computer Engineering}}
+        {\emph{2012 -- 2014, 2020-2021}}
+    \begin{itemize*}
+        \item Finished courses worth 120 credits, equivalent to 4 semesters of
+            full-time studies.
+    \end{itemize*}
+
+    \item 
+    \textbf{necro\_score\_bot}
+    \\
+    \headerrow
+        {\emph{Faculty of Science and Engineering, Computer Engineering}}
+        {\emph{2012 -- 2014, 2020-2021}}
+    \begin{itemize*}
+        \item Finished courses worth 120 credits, equivalent to 4 semesters of
+            full-time studies.
+    \end{itemize*}
+
+    \item 
+    \textbf{Seat Exchange Bot}
+    \\
+    \headerrow
+        {\emph{Faculty of Science and Engineering, Computer Engineering}}
+        {\emph{2012 -- 2014, 2020-2021}}
+    \begin{itemize*}
+        \item Finished courses worth 120 credits, equivalent to 4 semesters of
+            full-time studies.
+    \end{itemize*}
+
+    \item 
+    \textbf{Home Automation}
+    \\
+    \headerrow
+        {\emph{Faculty of Science and Engineering, Computer Engineering}}
+        {\emph{2012 -- 2014, 2020-2021}}
+    \begin{itemize*}
+        \item Finished courses worth 120 credits, equivalent to 4 semesters of
+            full-time studies.
+    \end{itemize*}
+
+\end{itemize}
+
+\end{document}
