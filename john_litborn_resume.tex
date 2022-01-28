@@ -47,7 +47,7 @@
     {\LARGE \textbf{John Litborn}}
 
     john.litborn@pm.me
-    \ \textbullet \ \ 
+    \ \textbullet \ \
     Linköping, Sweden
 \end{center}
 
@@ -92,9 +92,10 @@
     \headerrow
         {\emph{Course Developer, Software Developer}}
         {\emph{Summer of 2014 \& 2015}}
+    \url{https://github.com/h00701350103/XPilot-AI\_LiU\_fork}
     \begin{itemize*}
         \item After being unhappy with a course and it's software and
-            bringing it up to the professor, I was offered a summer job
+            giving feedback to the professor, I was offered a summer job
             to improve it. Where I remade the assignments and improved the
             Python API for XPilot, a 2D multiplayer space shooter, that was
             used in the course.
@@ -109,7 +110,6 @@
             XPilot source code, written in C with heavy use of macros, and
             modified its network protocol to send more data so the client-side
             API for example didn't have to re-calculate the speed of objects.
-        \item Source Code: \url{https://github.com/h00701350103/XPilot-AI_LiU_fork}
     \end{itemize*}
 
     \item
@@ -119,15 +119,15 @@
     \\
     \headerrow
             {\emph{IT-Consultant}}
-            {\emph{2017}}
+            {\emph{2017-04 -- 2017-10}}
     \begin{itemize*}
-            \item Updated 4G base-station unit tests written in Erlang to work
-                in a virtualized environment. I was the git-master in my team,
-                and helped the other team members when they encountered problems
-                with Git or Linux.
-            \item I was also responsible for updating our sections on the
-                internal Wiki, and wrote python and bash scripts to simplify
-                rote tasks.
+        \item Updated 4G base-station unit tests written in Erlang to work
+            in a virtualized environment. I was the git-master in my team,
+            and helped the other team members when they encountered problems
+            with Git or Linux.
+        \item I was also responsible for updating our sections on the
+            internal Wiki, and wrote python and bash scripts to simplify
+            rote tasks.
     \end{itemize*}
 
 \end{itemize}
@@ -140,7 +140,7 @@
 \begin{itemize}
     \parskip=0.1em
 
-    \item 
+    \item
     \textbf{Linköping University}
     \\
     \headerrow
@@ -149,7 +149,7 @@
     \begin{itemize*}
         \item Finished courses worth 120 credits, equivalent to 4 semesters of
             full-time studies.
-        \item I have almost exclusively studied part-time though, early on
+        \item I have almost exclusively studied part-time, early on
             because of parallel work at the university, later on because of
             mental health issues.
         \item My second year I won a programming competition in a course on
@@ -170,10 +170,10 @@
 \begin{indentsection}{\parindent}
 \hyphenpenalty=1000
 \begin{description*}
-	\item[Languages:]
-	Python, C, \CPP, Ada
-	\item[Tools:]
-            Arch Linux, NeoVim, git, GNU Debugger, Python Debugger (pdb), mypy
+    \item[Languages:]
+        Python, C, \CPP, Ada
+    \item[Tools:]
+        Arch Linux, NeoVim, git, command line tools (gdb, pdb, mypy, linters)
 \end{description*}
 \end{indentsection}
 
@@ -185,48 +185,78 @@
 \begin{itemize}
     \parskip=0.1em
 
-    \item 
-    \textbf{Crypt of the Necrodancer}
+    \item
+    \headerrow
+        {\textbf{necro\_score\_bot}}
+        {\emph{2015-present}}
     \\
     \headerrow
-        {\emph{Faculty of Science and Engineering, Computer Engineering}}
-        {\emph{2012 -- 2014, 2020-2021}}
+        {\url{https://github.com/h00701350103/necro\_score\_bot}}
+        {Python 3, 1500 lines of code}
     \begin{itemize*}
-        \item Finished courses worth 120 credits, equivalent to 4 semesters of
-            full-time studies.
+        \item Lacking a good way to track scores on the leaderboards in the
+            indie rhythm roguelike Crypt of the Necrodancer I decided to write
+            a twitter bot that pulls leaderboards from the Steam API, parses
+            them, and tweets out notable updates.
+        \item Players can add a link to their twitter in their steam profile,
+            which lets the bot tag them and also post less notable updates only
+            to them and their followers. It auto-detects cheated or bugged
+            scores and notifies the developers. It supports 16 different
+            characters, 4 run types, and all permutations of 9 game modes for a
+            total of over 400 leaderboards.
+        \item Uses the twitter API, queries both the official and legacy steam
+            API and makes raw html requests. Discord support and both
+            speedrunslive and NecroLab (a community power-ranking site)
+            leaderboard support was implemented but never activated. Also
+            interfaces with toofz, another community site.
+        \item Parses XML, json \& pickle. Multithreaded, thorough error
+            handling, config file and command line flags and modularly written
+            with 120 functions across 10 files.
+        \item Initial development spurt during 2015, and a second spurt in 2017
+            to make it work with the DLC. Has multiple small pull request from
+            other community members and is kept running and maintained to this
+            day by them.
     \end{itemize*}
 
-    \item 
-    \textbf{necro\_score\_bot}
+    \item
+    \headerrow
+        {\textbf{Seat Exchange Bot}}
+        {\emph{May-June 2019}}
     \\
     \headerrow
-        {\emph{Faculty of Science and Engineering, Computer Engineering}}
-        {\emph{2012 -- 2014, 2020-2021}}
+        {\url{https://github.com/h00701350103/seat\_exchange}}
+        {Python 3, 3500 lines of code}
     \begin{itemize*}
-        \item Finished courses worth 120 credits, equivalent to 4 semesters of
-            full-time studies.
+        \item One of several small discord bots I've whipped up. This one
+            during a bout of interest in the Korean game show The Genius, where
+            I adapted and implemented one of the games from the show.
+        \item The bot supports 40 different commands, different player counts,
+            computer players, multiple simultaneous games and permissions.
+        \item The code is object-oriented, easily extendable, statically
+            typed (with mypy), fully adheres to PEP8 and official python coding
+            standards (passes pylint with very few disabled checks) and even
+            has some comments.
     \end{itemize*}
 
-    \item 
-    \textbf{Seat Exchange Bot}
+    \item
+    \headerrow
+        {\textbf{Home Automation}}
+        {\emph{2016-present}}
     \\
     \headerrow
-        {\emph{Faculty of Science and Engineering, Computer Engineering}}
-        {\emph{2012 -- 2014, 2020-2021}}
+        {}
+        {>400 actions across >30 actions}
     \begin{itemize*}
-        \item Finished courses worth 120 credits, equivalent to 4 semesters of
-            full-time studies.
-    \end{itemize*}
-
-    \item 
-    \textbf{Home Automation}
-    \\
-    \headerrow
-        {\emph{Faculty of Science and Engineering, Computer Engineering}}
-        {\emph{2012 -- 2014, 2020-2021}}
-    \begin{itemize*}
-        \item Finished courses worth 120 credits, equivalent to 4 semesters of
-            full-time studies.
+        \item Using the Android scripting application Tasker I've created a
+            system for managing my life, notifying when to wake up, take
+            medication \& vitamins, eat, sleep and other reminders. Logs
+            everything to the calendar, as well as time-to-fall-asleep and
+            sleep duration, enabling statistics.
+            Also assists with daily diary taking and evaluating drugs with
+            self-blinded experiments.
+        \item Interfaces with my smartwatch, a Pebble Time, and widgets
+            custom-created with KWGT. Planning to interface it to my self-built
+            automatic roller blinds running on an Arduino.
     \end{itemize*}
 
 \end{itemize}
