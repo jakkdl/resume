@@ -64,23 +64,22 @@
         Didactics}}
         {\textbf{Linköping University}}
     \\
-    \textbf{Department of Computer and Information Science}
-    \\
+    %\textbf{Department of Computer and Information Science}
+    %\\
     \headerrow
         {\emph{Amanuensis, Course Assistant, Head Assistant}}
         {\emph{2013 -- 2017}}
     \begin{itemize*}
-        \item Recruited my second year at university, I taught courses in Python,
-            \CPP, Ada and Matlab.
-        \item Primarily introductory courses, where I held lessons with repetition
-            and shared problem solving, lab assistant where I answered questions and
-            helped solve problems, and correcting lab hand-ins and exams.
-        \item Later on I also held more advanced courses, teaching the \CPP  standard
-            library, git, object-oriented programming or unit-testing.
-            I was also advisor on projects and grading documentation
-            and hand-ins, and as head assistant taking on light
-            administrative and managerial duties for students and other
+        \item Taught introductory courses in Python, \CPP, Ada and Matlab.
+        \item Led lessons, coached as lab assistant, and graded lab
+            hand-ins and exams.
+        \item Held advanced courses teaching the \CPP
+            standard library, Git, OO programming and
+            unit-testing.
+        \item Advisor on projects, grading documentation and hand-ins.
+        \item Light administrative and managerial duties for students and other
             assistants.
+        \item Improved tooling and workflow used by tutors.
     \end{itemize*}
 
     \item
@@ -88,8 +87,8 @@
         {\textbf{Division for Artificial Intelligence \& Integrated Computer Systems}}
         {\textbf{Linköping University}}
     \\
-    \textbf{Department of Computer and Information Science}
-    \\
+    %\textbf{Department of Computer and Information Science}
+    %\\
     \headerrow
         {\emph{Course Developer, Software Developer}}
         {\emph{Summer of 2014 \& 2015}}
@@ -97,22 +96,13 @@
         {\url{https://github.com/h00701350103/XPilot-AI\_LiU\_fork}}
         {Python, C, HTML}
     \begin{itemize*}
-        \item After being unhappy with a course and it's software and
-            giving feedback to the professor, I was offered a summer job
-            to improve it. Where I remade the assignments and improved the
-            Python API for XPilot, a 2D multiplayer space shooter, that was
-            used in the course.
-        \item I overhauled the structure of the assignments, changed,
-            removed and added several ones and wrote better and clearer
-            instructions and documentation.
-        \item The XPilot-AI API in use was developed at Connecticut College,
-            and after discussions with them I forked the project and begun
-            modifying the C-Python interface to fix bugs and add features to
-            suit our needs.
-        \item My second year working on it I also started modifying the
-            client-server netcode to send more data so the
-            client-side API for example didn't have to re-calculate the speed
-            of objects.
+        \item Overhauled assignments, improved instructions and
+            documentation.
+        \item Added features and fixed bugs in the interfaces
+            between the C game client, the injection code used to run a game
+            client automatically, and the Python API used by students.
+        \item Changed server-client netcode to send extra data, offloading and
+            improving the client-side AI API.
     \end{itemize*}
 
     \item
@@ -124,15 +114,11 @@
             {\emph{IT-Consultant}}
             {\emph{Mar -- Oct 2017}}
     \begin{itemize*}
-        \item Hired by the consulting firm HiQ to work at Ericssons main
-            offices in Linköping in a team with other consultants.
-        \item Our task was to updated 4G base-station unit tests written in
-            Erlang to work in a virtualized environment. I was the git-master
-            in the team, and helped the other team members when they
-            encountered problems with Git or Linux.
-        \item I was also responsible for updating our sections on the
-            internal Wiki, and wrote python and bash scripts for myself and
-            other team members to simplify rote tasks.
+        \item Updated 4G base-station unit tests written in
+            Erlang to work in a virtualized environment.
+        \item Supported team members with core Linux and Git skills, and
+            wrote automation scripts in python \& shell.
+        %\item Responsible for updating internal documentation.
     \end{itemize*}
 
 \end{itemize}
@@ -154,19 +140,13 @@
         {\emph{Computer Engineering}}
         {\emph{120 Credits}}
     \begin{itemize*}
-        \item I have almost exclusively studied part-time, early on
-            because of parallel work at the university, later on because of
-            mental health issues.
         \item \( 2/3 \) of credits are in programming in a diverse set of
-            languages (Python, \CPP, C, Java, Ada, VHDL, Prolog, Assembly, GNU
-            MathProg), with a focus on algorithm construction, optimization and
-            low-level code. \( 1/3 \) of credits are in math courses.
-        \item My second year I won a programming competition in a course on
-            Computer Hardware and Architecture,
-            which consisted of writing a sorting algorithm in microcode for
-            a low-level simulated computer. My solution also beat the
-            professors best implementation, and outclassed the previous student
-            record.
+            languages, with a focus on algorithm construction, optimization,
+            low-level code and hardware. \( 1/3 \) of credits in math courses.
+        \item My 2nd year I won a programming competition in a course,
+            writing a sorting algorithm in microcode for
+            a low-level simulated computer. My solution beat the
+            professors record, outclassing the student record.
     \end{itemize*}
 
 \end{itemize}
@@ -179,17 +159,19 @@
 \begin{indentsection}{\parindent}
 \hyphenpenalty=1000
 \begin{description*}
-    \item[Languages:]
+    \item[Primary languages:]
         Python, \CPP, C, Ada
     \item[Tools:]
-        Arch Linux, NeoVim, git, command line tools (gdb, pdb, mypy, linters)
+        Arch Linux, NeoVim, Git, command line tools (gdb, pdb, mypy, linters)
+    %\item[Secondary languages:]
+    %    Java VHDL, Prolog, Assembly, GNU MathProg, JavaScript, HTML, Basic
 \end{description*}
 \end{indentsection}
 
 
-% \hrule
-% \vspace{-0.4em}
-\subsection*{Personal Projects}
+\hrule
+\vspace{-0.4em}
+\subsection*{Highlighted Personal Projects}
 
 \begin{itemize}
     \parskip=0.1em
@@ -203,28 +185,13 @@
         {\url{https://github.com/h00701350103/necro\_score\_bot}}
         {Python, 1500 lines of code}
     \begin{itemize*}
-        \item Lacking a good way to track scores on the leaderboards in the
-            indie rhythm roguelike Crypt of the Necrodancer I decided to write
-            a twitter bot that pulls leaderboards from the Steam API, parses
-            them, and tweets out notable updates.
-        \item Players can add a link to their twitter in their steam profile,
-            which lets the bot tag them and post less notable updates only
-            to them and their followers. It auto-detects cheated or bugged
-            scores and notifies the developers. It supports 16 different
-            characters, 4 run types, and all permutations of 9 game modes for a
-            total of over 400 leaderboards.
-        \item Uses the twitter API, queries both the official and legacy steam
-            API as well as raw html requests. Discord support and both
-            speedrunslive and NecroLab (a community power-ranking site)
-            leaderboard support was implemented but never activated. Also
-            interfaces with toofz, another community site.
-        \item Parses XML, json \& pickle. Multithreaded, thorough error
-            handling, config file and command line flags and modularly written
-            with >120 functions across 10 files.
-        \item Initial development spurt during 2015, and a second spurt in 2017
-            to make it work with the DLC. Has multiple small pull request from
-            other community members and is kept running and maintained to this
-            day by them.
+        \item Pulls leaderboard updates from the Steam API for the indie rhythm
+            roguelike Crypt of the Necrodancer, posting notable updates to
+            Twitter and/or Discord.
+        \item Tags players and detects cheated or bugged scores, notifying the
+            developers.
+        \item Modular, multithreaded, thorough error handling, config file and
+            command line flags.
     \end{itemize*}
 
     \item
@@ -236,36 +203,12 @@
         {\url{https://github.com/h00701350103/seat\_exchange}}
         {Python, 3500 lines of code}
     \begin{itemize*}
-        \item One of several "small" discord bots I've whipped up. This one
-            during a bout of interest in the Korean game show The Genius, where
-            I adapted and implemented one of the games from the show.
-        \item The bot supports 40 different commands, different player counts,
-            computer players, multiple simultaneous games and permissions.
-        \item The code is object-oriented, easily extendable, statically
-            typed (using mypy), fully adheres to PEP8 and official python
-            coding standards (passes pylint with very few disabled checks) and
-            even has some comments.
-    \end{itemize*}
-
-    \item
-    \headerrow
-        {\textbf{Home Automation}}
-        {\emph{2016-present}}
-    \\
-    \headerrow
-        {}
-        {>400 actions across >30 actions}
-    \begin{itemize*}
-        \item Using the Android scripting application Tasker I've created a
-            system for managing my life, notifying when to wake up, take
-            medication \& vitamins, eat, sleep and other reminders. Logs
-            everything to the calendar, as well as time-to-fall-asleep and
-            sleep duration, enabling statistics.
-            Also assists with daily diary taking and evaluating drugs with
-            self-blinded experiments.
-        \item Interfaces with my smartwatch, a Pebble Time, and widgets
-            custom-created with KWGT. Planning to interface it to my self-built
-            automatic roller blinds running on an Arduino.
+        \item Implements an adaptation of a game from a Korean game show, The
+            Genius.
+        \item Supports 40 different commands, varying player counts,
+            bot players, simultaneous games and permissions.
+        \item Object-oriented, modular, statically typed, adheres to official
+            python coding standards and commented.
     \end{itemize*}
 
 \end{itemize}
