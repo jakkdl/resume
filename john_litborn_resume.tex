@@ -17,24 +17,24 @@
 % that need indentation to the level of all text in the document
 \newenvironment{indentsection}[1]%
 {\begin{list}{}%
-	{\setlength{\leftmargin}{#1}}%
-	\item[]%
+    {\setlength{\leftmargin}{#1}}%
+    \item[]%
 }
 {\end{list}}
 
 % opposite of above; bump a section back toward the left margin
 \newenvironment{unindentsection}[1]%
 {\begin{list}{}%
-	{\setlength{\leftmargin}{-0.5#1}}%
-	\item[]%
+    {\setlength{\leftmargin}{-0.5#1}}%
+    \item[]%
 }
 {\end{list}}
 
 % format two pieces of text, one left aligned and one right aligned
 \newcommand{\headerrow}[2]
 {\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
-	#1 &
-	#2 \\
+    #1 &
+    #2 \\
 \end{tabular*}}
 
 % make "C++" look pretty when used in text by touching up the plus signs
@@ -68,13 +68,13 @@ Didactics}}
 %\\
 \headerrow
 {\emph{Amanuensis, Course Assistant, Head Assistant}}
-{\emph{2013 -- 2017}}
+{\emph{2013--17}}
 \begin{itemize}[noitemsep, topsep=0pt]
     \item Led lessons and lab sessions, advised on projects, and graded
         hand-ins and exams
-    \item Taught introductory courses in Python, \CPP, Ada, and Matlab, and
-        advanced courses in \CPP \ STL, Git, Object-Oriented programming and
-        unit testing
+    \item Taught introductory courses in Python, \CPP, Ada, and MATLAB and
+        advanced courses in the \CPP \ STL, Git, object-oriented programming,
+        and unit testing
     \item Performed light administrative and managerial duties for students
         and other assistants
     \item Improved tooling and workflow used by assistants
@@ -90,15 +90,15 @@ Didactics}}
 {\emph{Course Developer, Software Developer}}
 {\emph{Summer of 2014 \& 2015}}
 \headerrow
-{\url{https://github.com/h00701350103/XPilot-AI\_LiU\_fork}}
+{\url{https://github.com/jakkdl/XPilot-AI\_LiU\_fork}}
 {Python, C, HTML}
 \begin{itemize}[noitemsep, topsep=0pt]
-    \item Overhauled assignments, improved instructions, and
+    \item Overhauled assignments and improved instructions and
         documentation
     \item Added features and fixed bugs in the interfaces
         between the C game client, the injection code used to run a game
         client automatically, and the Python API used by students
-    \item Changed server-client netcode to send extra data, offloading and
+    \item Changed server--client netcode to send extra data, offloading and
         improving the client-side AI API
 \end{itemize}
 \vspace{0.5em}
@@ -109,11 +109,11 @@ Didactics}}
 \\
 \headerrow
 {\emph{IT Consultant}}
-{\emph{Mar -- Oct 2017}}
+{\emph{Mar--Oct 2017}}
 \begin{itemize}[noitemsep, topsep=0pt]
     \item Updated 4G base-station unit tests written in
         Erlang to work in a virtualized environment
-    \item Supported team members with core Linux and Git skills
+    \item Supported core Linux and Git skills for other team members
     \item Wrote automation scripts in Python \& shell
         %\item Responsible for updating internal documentation
 \end{itemize}
@@ -129,19 +129,19 @@ Didactics}}
 
 \headerrow
     {\textbf{Linköping University, Faculty of Science and Engineering}}
-    {\emph{2012 -- 2014, 2020 -- 2021}}
+    {\emph{2012--14, 2020--21}}
 \\
 \headerrow
     {\emph{Computer Engineering}}
     {120 Credits}
 \begin{itemize}[noitemsep, topsep=0pt]
-    \item 80 credits in programming: courses in a diverse set of languages with
-        a focus on algorithm construction, optimization, low-level code and
-        hardware.
-    \item 40 credits in math courses.
-    \item Programming competition winner (2013): sorting algorithm in microcode
-        for a low-level simulated computer. Solution beat the previous student
-        record and professor's record.
+    \item 80 credits in programming courses in a diverse set of languages with
+        a focus on algorithm construction, optimization, low-level code, and
+        hardware
+    \item 40 credits in math courses
+    \item Won a 2013 programming competition in a course to implement a sorting
+        algorithm in microcode for a low-level simulated computer, beating the
+        previous student record and the professor's record.
 \end{itemize}
 \vspace{0.5em}
     %\item \( 2/3 \) of credits are in programming in a diverse set of
@@ -161,35 +161,35 @@ Didactics}}
 
 \headerrow
     {\textbf{Necro Score Bot}}
-    {\emph{2015 -- present}}
+    {\emph{2015--present}}
 \\
 \headerrow
-    {\url{https://github.com/h00701350103/necro\_score\_bot}}
+    {\url{https://github.com/jakkdl/necro\_score\_bot}}
     {Python, 1500 lines of code}
 \begin{itemize}[noitemsep, topsep=0pt]
-    \item Pulls leaderboard updates from the Steam API for the indie rhythm
-        roguelike game Crypt of the Necrodancer, posting notable scores to
-        Twitter and/or Discord
+    \item Pulls leaderboard updates from the Steam API for the indie roguelike
+        rhythm game, \emph{Crypt of the Necrodancer}, posting notable scores
+        to Twitter and/or Discord
     \item Tags players and detects cheated or bugged scores, notifying the
         developers
-    \item Has thorough error handling, a config file and command-line
+    \item Has thorough error handling, has a config file and command-line
         flags, and is modular and multithreaded
 \end{itemize}
 
 \vspace{0.5em}
 \headerrow
     {\textbf{Seat Exchange Bot}}
-    {\emph{May -- June 2019}}
+    {\emph{May--June 2019}}
 \\
 \headerrow
-    {\url{https://github.com/h00701350103/seat\_exchange}}
+    {\url{https://github.com/jakkdl/seat\_exchange}}
     {Python, 3500 lines of code}
 \begin{itemize}[noitemsep, topsep=0pt]
-    \item Implements an adaptation of a game from a Korean game show, The
-        Genius
+    \item Implements an adaptation of a game from a Korean game show, \emph{The
+        Genius}
     \item Supports 40 different commands, varying player counts,
         bot players, simultaneous games, and permissions
-    \item Adheres to PEP coding standards and is Object-Oriented, modular,
+    \item Adheres to PEP coding standards and is object-oriented, modular,
         and statically typed
 \end{itemize}
 
@@ -204,11 +204,11 @@ Didactics}}
 \hyphenpenalty=1000
 \begin{description*}
     \item[Languages:]
-        Python, \CPP, C, Ada, Shell scripting
+        Python, \CPP, C, Ada, shell scripting
     \item[Tools:]
         Arch Linux, NeoVim, Git, command line tools (gdb, pdb, mypy, linters)
     %\item[Secondary languages:]
-    %    Java VHDL, Prolog, Assembly, GNU MathProg, JavaScript, HTML, Basic
+    %    Java, VHDL, Prolog, Assembly, GNU MathProg, JavaScript, HTML, Basic
 \end{description*}
 \end{indentsection}
 %Meriter
