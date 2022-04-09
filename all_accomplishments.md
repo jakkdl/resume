@@ -139,6 +139,11 @@ handling keys for buildings, minor tech responsibilities (microphones) during se
 * More of a hardware/physical invention, but after several failed iterations with Arduino motors I mounted a tape motor to my roller blinder that's controlled by an arduino to automatically roll up in the morning
 * code is extremely dumb, only a hardcoded timer, and timing is controlled by a wall timer. TODO to make it connect to wifi/bluetooth/something and interact with routine clock
 * https://vimeo.com/manage/videos/229001221
+## youtube subscription downloader
+Forked a git repo and heavily modified to automatically download youtube subscriptions to my phone so I can watch them with VLC. TODO: put it on git
+## soundcloud feed downloader
+Wrote back in 2015, 560 LOC python. No clue if it works today. Not on github
+## A dozen other scripts lying in random directories
 
 ## NecroDancer other
 ### release tester
