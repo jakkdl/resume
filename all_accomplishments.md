@@ -238,9 +238,10 @@ Coded with a gui, I have \>400 actions (~lines of code) across >30 actions (func
 system for managing my life, notifying when to wake up, take medication \& vitamins, eat, sleep and other reminders. Logs everything to the calendar, as well as time-to-fall-asleep and sleep duration, enabling statistics.  
 Also assists with daily diary taking and evaluating drugs with
 self-blinded experiments (currently evaluating melatonin dosage).  
-Interfaces with my smartwatch, a Pebble Time, and widgets
-custom-created with KWGT. Planning to interface it to my self-built
-automatic roller blinds running on an Arduino.
+Interfaces with my smartwatch, a Pebble Time, and widgets custom-created with KWGT. Planning to interface it to my self-built automatic roller blinds running on an Arduino.  
+Currently working on interaction with the Toggl API.  
+I could go into a *lot* more detail on this, I've been working on my scripts for >5 years and there's a crapton of functionality everywhere - carefully tuned to be reliable (across time, phones, timezones, android versions, etc) and of the most usefulness for me.
+
 
 ## computers
 ripped apart and reconstructed dozens of computers for personal use, or as servers.
