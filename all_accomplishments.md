@@ -14,7 +14,8 @@
     Is there some other vague indication that you’ve done a good job somewhere but I didn’t know how to ask about it?
 
 
-Asking me for a comprehensive list is ... dangerous 😇 I've marked the ones I think are somewhat impressive, most of which have been on my CV and/or LinkedIn at some point or another, with an asterisk.
+Asking me for a comprehensive list is ... dangerous 😇 I've marked the ones I think are somewhat impressive, most of which have been on my CV and/or LinkedIn at some point or another, with an asterisk.  
+Fun exercise to make me realize just how much *stuff* I have done.
 
 
 # Education
@@ -171,7 +172,7 @@ one of a dozen testers for the release version
 
 
 
-# Achievements
+# Awards
 ## Gold star: Most helpful
 Awarded to me at age 10 by my teacher, due to helping my benchmates with math. :D
 ## Mensa entrance test*
@@ -222,7 +223,7 @@ Every semester this course runs a sorting competition for interested students, w
 I wrote mine in raw microcode, used the program memory as a large lookup table / bucket for sorting, and abused several parts of the microcomputer for tasks they were not originally intended to do - in order to achieve some parallellism and optimize my program.  
 My program ran in an avg of 903.6 cycles on their problem set (897 cycles on average in my testing).  
 The previous student record was around 1,100 cycles or something, and the professors record was 948 cycles.  
-My name was then displayed on the course website for multiple years following that, but they've now changed the competition format (the computer has to be able to run normal commands, my program definitely had no support for doing anything but solving this specific problem)  
+My name was then displayed on the course website for multiple years following that, though they've since stopped tracking records... 😇
 An overview of what the computer looked like can be found at page 7 of https://www.isy.liu.se/edu/kurs/TSEA83/pdf/mia_manual.pdf  
 (One day I might add my solution to github, but I coded it in ... a spreadsheet)
 
@@ -252,3 +253,7 @@ https://en.wikipedia.org/wiki/LineageOS
 ### rockbox
 custom OS I installed and ran as daily driver on my iPod a decade ago
 https://en.wikipedia.org/wiki/Rockbox
+
+
+### What can you talk about with enthusiasm?
+Oh boi, answering this one would take up another couple thousand words
