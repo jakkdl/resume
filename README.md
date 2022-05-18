@@ -26,7 +26,7 @@ Uplift 4G base-station unit tests written in Erlang to work in a virtualized env
 **2016** Swedish SAT: 1.9/2.0 (top 0.2\%). Retook it for fun, competing with a friend.
 
 ## Projects
-When not otherwise noted, projects are written in Python since I'm very familiar with the tooling and libraries.
+When not otherwise noted, projects are written in Python since I'm very familiar with the tooling and libraries.  
 [**Necro Score Bot**](https://github.com/jakkdl/necro\_score\_bot)
 240 [Twitter](https://twitter.com/necro\_score\_bot) followers, 13.2k tweets.
 Continuosly running since 2015, 6 contributors.  
