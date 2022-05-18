@@ -2,7 +2,7 @@
 john.litborn@pm.me
 Linköping, Sweden
 
-Software developer, wrote 10+ programming side projects, scored top 0.1% in Sweden SAT, participated in The Programming Olympiads and several other competitions
+Software developer, wrote 10+ programming side projects, scored top 0.1\% in Sweden SAT, participated in The Programming Olympiads and several other competitions
 
 2013-17, Amanuensis, Course assistant, Tool Developer
 Linköping University
@@ -11,7 +11,7 @@ Taught Python, C++, Ada, MATLAB, Git. Graded labs and exams. Developed internal 
 Summer of 2014&15
 Linköping University
 Course Developer, Engine&API development
-[https://github.com/jakkdl/XPilot-AI\_LiU\_fork](code)
+[code](https://github.com/jakkdl/XPilot-AI\_LiU\_fork)
 (Python, C, HTML)
 Got frustrated by a bad course and when giving feedback was offered a summer job to improve it.
 Overhauled the assignments & documentation, added features and fixed bugs in the interfaces
@@ -30,23 +30,23 @@ Mar-Oct 2017
 Education
 
 Linköping University
-2012--14, 2020--21
+2012-14, 2020-21
 Computer Engineering, 120 Credits
 * 80 credits in programming courses in a diverse set of languages with a focus on algorithm construction, optimization, low-level code, and hardware
 * 40 credits in math courses
 * Won a 2013 programming competition in a course to implement a sorting algorithm in microcode for a low-level simulated computer, beating the previous student record and the professor's record.
 
 
-[https://github.com/jakkdl/necro\_score\_bot](Necro Score Bot)
+[Necro Score Bot](https://github.com/jakkdl/necro\_score\_bot)
 2015--present
 Python, 1500 lines of code
-240 followers on [https://twitter.com/necro\_score\_bot](twitter), 13.2k tweets.
+240 followers on [twitter](https://twitter.com/necro\_score\_bot), 13.2k tweets.
 Pulls leaderboard updates from the Steam API for the indie roguelike rhythm game, Crypt of the Necrodancer, posting notable scores to Twitter and/or Discord
 Tags players and detects cheated or bugged scores, notifying the developers
 Thorough error handling, config file and command-line flags, modular and multithreaded
 
-[https://github.com/jakkdl/seat\_exchange] (Seat Exchange Bot)
-Implements an adaptation of a game from a Korean game show, \emph{The Genius}
+[Seat Exchange Bot](https://github.com/jakkdl/seat\_exchange) 
+Implements an adaptation of a game from a Korean game show, **The Genius**
 Supports 40 different commands, varying player counts, bot players, simultaneous games, and permissions
 
 
