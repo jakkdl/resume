@@ -4,18 +4,15 @@ john.litborn@pm.me | Linköping, Sweden
 *Software developer, over a dozen programming side projects, scored top 0.1\% in Swedish SAT, participated in The Programming Olympiads and several other competitions*
 
 ## Professional experience
-| **2013-2017** | Amanuensis, Course assistant, Tool Developer | Linköping University |  
-| --- | --- | --- |
+**2013-2017** *Amanuensis, Course assistant, Tool Developer* **Linköping University**  
 Taught Python, C++, Ada, MATLAB, Git. Graded labs and exams. Developed internal tooling and standardized lab grading. Transitioned internal kiosk from a manual whiteboard system to splitwise, with supporting XScreenSaver and automated e-mails \(C\).
 
-| **Summers of 2014&15** | *Course Developer, Engine&API development* | **Linköping University** |
-| --- | --- | --- |
+**Summers of 2014&15** *Course Developer, Engine&API development* **Linköping University**
 * Got frustrated by a bad course and when giving feedback was offered a summer job to improve it.
 * Overhauled assignments & documentation, modified the Python API and the C client and server with added features, bugfixes, and extensions to the netcode.
 [code](https://github.com/jakkdl/XPilot-AI\_LiU\_fork) (Python, C, HTML)  
 
-| **Mar-Oct 2017** | Uplift unit tests, Git & Linux master | **Ericsson, HiQ** |  
-| --- | --- | --- |
+**Mar-Oct 2017** *Uplift unit tests, Git & Linux master* **Ericsson, HiQ**  
 Uplift 4G base-station unit tests written in Erlang to work in a virtualized environment. Team member responsible for Git, Linux, Python & Shell scripts, and team pages on the internal wiki.
 
 ## Education
