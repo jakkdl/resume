@@ -18,12 +18,12 @@ Uplift 4G base-station unit tests written in Erlang to work in a virtualized env
 ## Education
 **2009-2012** Higher Education, Science with extra math&programming (C#). Grade average 4.9/5   
 **2012** Swedish SAT: 2.0/2.0 (top 0.1\%)  
-**2016** Swedish SAT: 1.9/2.0 (top 0.2\%). Retook it for fun, competing with a friend.
 **2012-14, 2020-21** Computer Engineering, 120 Credits **Linköping University**. Grade Average 4.1/5  
 * 80 credits in programming courses with a focus on algorithm construction, optimization, low-level code, and hardware. Python, C++, C, Java, Ada, VHDL, Prolog, Assembly, GNU MathProg, Microcode.  
 * Major projects include: [Mapping robot](https://github.com/jakkdl/TSEA29_mapping_robot) with 2 Atmega1284p processors programmed in C, IR-sensors, odometer and gyro.  BIT.TRIP clone written in VHDL, Java [Liero clone](https://github.com/jakkdl/TDDC69-Kasfeq).
 * 40 credits in math courses; statistics, logic, discrete math.
 
+**2016** Swedish SAT: 1.9/2.0 (top 0.2\%). Retook it for fun, competing with a friend.
 
 ## Projects
 *When not otherwise noted, projects are written in Python.*  
