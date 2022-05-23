@@ -11,7 +11,7 @@ john.litborn@pm.me | Linköping, Sweden
         <td>Linköping University</td>
     </tr>
     <tr>
-        <td colspan="3">Taught Python, C++, Ada, MATLAB, Git. Graded labs and exams. Developed internal tooling and standardized lab grading. Transitioned internal kiosk from a manual whiteboard system to splitwise, with supporting XScreenSaver and automated e-mails \(C\).</td>
+        <td colspan="3">Taught Python, C++, Ada, MATLAB, Git. Graded labs and exams. Developed internal tooling and standardized lab grading. Transitioned internal kiosk from a manual whiteboard system to splitwise, with supporting XScreenSaver and automated e-mails (C).</td>
     </tr>
     <tr>
         <td><b>Summers of 2013&14</b></td>
