@@ -81,7 +81,7 @@ Merged [Py-Ethereum pull request](https://github.com/ethereum/py-evm/pull/290) [
 Designed the scoring formula for [NecroLab](https://necrolab.com/)
 
 ## Competitions
-**2014** [MicroCode sorting competition](https://www.isy.liu.se/en/edu/kurs/TSEA83/laboration/lab\_mikro.html) as part of a university course. Placed **1st** with an average runtime of 903.6 cycles, breaking the professors long-standing record of 948, and smashing the student record at the time. (>1100)
+**2014** [MicroCode sorting competition](https://www.isy.liu.se/en/edu/kurs/TSEA83/laboration/lab\_mikro.html) as part of a university course. Placed **1st** with an average runtime of 903.6 cycles, breaking the professors long-standing record of 948, and smashing the student record at the time. (>1100)  
 **2011** Programming Olympiad, national qualifiers: [31st / 164](https://progolymp.se/2011/skolkval/resultat-mer) (in a 21-way tie)  
 **2015** [Nordic Collegiate Programming Contest](https://nordic.icpc.io/): Formed a team with 2 work mates and placed [9th/22](https://ncpc15.kattis.com/standings?filter=352) (Team: "Ge Upp") at our university, 108th/355 across all universities.  
 **2011** Kängurun, a swedish math competition: [9th / 155](http://ncm.gu.se/2005) in my division.  
