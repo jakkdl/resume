@@ -4,7 +4,12 @@ john.litborn@pm.me | Linköping, Sweden
 *Software developer, veteran linux user, 20+ programming side projects, scored top 0.1\% in Swedish SAT, participated in The Programming Olympiads and several other competitions*
 
 ## Professional experience
-**2013-2017** ... ... ... ... ... ... *Amanuensis, Course assistant, Tool Developer* ... **Linköping University**  
+<table align="center">
+<tr>
+<td> **2013-2017**</td>
+<td>*Amanuensis, Course assistant, Tool Developer*</td>
+<td>**Linköping University**</td>
+</tr>
 Taught Python, C++, Ada, MATLAB, Git. Graded labs and exams. Developed internal tooling and standardized lab grading. Transitioned internal kiosk from a manual whiteboard system to splitwise, with supporting XScreenSaver and automated e-mails \(C\).
 
 **Summers of 2013&14** ... *Course Developer, Engine&API development* ... **Linköping University**
