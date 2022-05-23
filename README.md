@@ -5,20 +5,37 @@ john.litborn@pm.me | Linköping, Sweden
 
 ## Professional experience
 <table align="center">
-<tr>
-<td> **2013-2017**</td>
-<td>*Amanuensis, Course assistant, Tool Developer*</td>
-<td>**Linköping University**</td>
-</tr>
-Taught Python, C++, Ada, MATLAB, Git. Graded labs and exams. Developed internal tooling and standardized lab grading. Transitioned internal kiosk from a manual whiteboard system to splitwise, with supporting XScreenSaver and automated e-mails \(C\).
-
-**Summers of 2013&14** ... *Course Developer, Engine&API development* ... **Linköping University**
-* Got frustrated by a bad course and when giving feedback was offered a summer job to improve it.
-* 2013: [Overhauled](https://github.com/jakkdl/TDDD63-course-content) assignments, documentation, instructions and maps. Minor bugfixes to the API. (Python, HTML)
-* 2014: [Major updates](https://github.com/jakkdl/XPilot-AI\_LiU\_fork) to the API as well as the netcode between client & server (Python, C).
-
-**Mar-Oct 2017** ... ... ... ...  *Software Engineer, test development*  ... ... ... ... ... **Ericsson, HiQ**  
+    <tr>
+        <td><b>2013-2017</b></td>
+        <td>Amanuensis, Course assistant, Tool Developer</td>
+        <td>Linköping University</td>
+    </tr>
+    <tr>
+        <td colspan="3">Taught Python, C++, Ada, MATLAB, Git. Graded labs and exams. Developed internal tooling and standardized lab grading. Transitioned internal kiosk from a manual whiteboard system to splitwise, with supporting XScreenSaver and automated e-mails \(C\).</td>
+    </tr>
+    <tr>
+        <td><b>Summers of 2013&14</b></td>
+        <td>Course Developer, Engine\&API development</td>
+        <td>Linköping University</td>
+    </tr>
+<tr><td colspan="3">
+Got frustrated by a bad course and when giving feedback was offered a summer job to improve it.
+</tr></td>
+<tr><td colspan="3">
+2013: <a href="https://github.com/jakkdl/TDDD63-course-content">Overhauled</a> assignments, documentation, instructions and maps. Minor bugfixes to the API. (Python, HTML)
+</tr></td>
+<tr><td colspan="3">
+2014: <a href="https://github.com/jakkdl/XPilot-AI\_LiU\_fork">Major updates</a> to the API as well as the netcode between client & server (Python, C).
+</tr></td>
+    <tr>
+        <td><b>Mar-Oct 2017</b></td>
+        <td>Software Engineer, test development</td>
+        <td>Ericsson, HiQ</td>
+    </tr>
+<tr><td colspan="3">
 Uplift 4G base-station unit tests (Erlang) to work in a virtualized environment. Team member responsible for Git, Linux, Python & Shell scripts, and team pages on the internal wiki.
+</tr></td>
+</table>
 
 ## Education
 **2009-2012** Higher Education, Science with extra math&programming (C#). Grade average 4.9/5   
