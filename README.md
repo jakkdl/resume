@@ -15,7 +15,7 @@ john.litborn@pm.me | Linköping, Sweden
     </tr>
     <tr>
         <td><b>Summers of 2013&14</b></td>
-        <td>Course Developer, Engine\&API development</td>
+        <td>Course Developer, Engine&API development</td>
         <td>Linköping University</td>
     </tr>
 <tr><td colspan="3">
