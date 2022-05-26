@@ -9,7 +9,10 @@
 \usepackage{textcomp}
 \usepackage{tgpagella}
 \usepackage{hyperref}
+
 \usepackage{enumitem}
+\usepackage{varwidth}
+
 \pagestyle{empty}
 \setlength{\tabcolsep}{0em}
 
@@ -37,13 +40,25 @@
     #2 \\
 \end{tabular*}}
 
+% format three pieces of text, one left aligned, one center, and one right aligned
+\newcommand{\threeheaderrow}[3]
+{\begin{tabular*}{\linewidth}{p{110pt}l@{\extracolsep{\fill}}r}
+    #1 &
+    #2 &
+    #3 \\
+\end{tabular*}}
+
 % make "C++" look pretty when used in text by touching up the plus signs
 \newcommand{\CPP}
 {C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
 
+\newcommand{\PLUS}
+{\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf +}}
+
 % and the actual content starts here
 \begin{document}
 
+%%%%% HEADER %%%%%
 \hyphenpenalty=1000
 \begin{center}
     {\LARGE \textbf{John Litborn}}
@@ -51,65 +66,59 @@
     john.litborn@pm.me
     \ \textbullet \ \
     Linköping, Sweden
-\end{center}
+\\
+\vspace{0.4em}
+        %{\begin{varwidth}[t]{\linewidth}
+            \emph{20\PLUS programming side projects, 15 years linux experience, scored top 0.1\% in Swedish SAT, \\ participated in The Programming Olympiads and several other competitions}
+        %\end{varwidth}}
 
+\end{center}
 \hrule
 \vspace{-0.4em}
+
+%%%%% EXPERIENCE %%%%%
 \subsection*{Experience}
 
 %\parskip=0.1em
 \parindent=0em
-\headerrow
-{\textbf{Education Group for Programming and Programming
-Didactics}}
-{\textbf{Linköping University}}
-\\
-%\textbf{Department of Computer and Information Science}
-%\\
-\headerrow
-{\emph{Amanuensis, Course Assistant, Head Assistant}}
+\threeheaderrow
 {\emph{2013--17}}
+{\textbf{Amanuensis, Course Assistant, Head Assistant}}
+{\textbf{Linköping University}}
 \begin{itemize}[noitemsep, topsep=1pt]
     \item Led lessons and lab sessions, advised on projects, and graded
         hand-ins and exams
-    \item Taught introductory courses in Python, \CPP, Ada, and MATLAB and
-        advanced courses in the \CPP \ STL, Git, object-oriented programming,
+    \item Taught courses in Python, \CPP, Ada, MATLAB,
+        \CPP \ STL, Git, OOP,
         and unit testing
     \item Performed light administrative and managerial duties for students
         and other assistants
     \item Improved tooling and workflow used by assistants
 \end{itemize}
 \vspace{0.5em}
-\headerrow
-{\textbf{Division for Artificial Intelligence \& Integrated Computer Systems}}
+\threeheaderrow
+{\emph{Summers of 2014--15}}
+{\textbf{API \& Course Developer}}
 {\textbf{Linköping University}}
-\\
-%\textbf{Department of Computer and Information Science}
 %\\
-\headerrow
-{\emph{Course Developer, Software Developer}}
-{\emph{Summer of 2014 \& 2015}}
-\headerrow
-{\url{https://github.com/jakkdl/XPilot-AI\_LiU\_fork}}
-{Python, C, HTML}
+%\headerrow
+%{\url{https://github.com/jakkdl/XPilot-AI\_LiU\_fork}}
+%{Python, C, HTML}
 \begin{itemize}[noitemsep, topsep=1pt]
-    \item Overhauled assignments and improved instructions and
-        documentation
     \item Added features and fixed bugs in the interfaces
         between the C game client, the injection code used to run a game
         client automatically, and the Python API used by students
     \item Changed server--client netcode to send extra data, offloading and
         improving the client-side AI API
+    \item Overhauled assignments and improved instructions and
+        documentation
 \end{itemize}
 \vspace{0.5em}
 
-\headerrow
-{\textbf{Ericsson, HiQ}}
-{\textbf{Linköping}}
-\\
-\headerrow
-{\emph{IT Consultant}}
+\threeheaderrow
 {\emph{Mar--Oct 2017}}
+{\textbf{IT Consultant}}
+{\textbf{Ericsson}}
 \begin{itemize}[noitemsep, topsep=1pt]
     \item Updated 4G base-station unit tests written in
         Erlang to work in a virtualized environment
@@ -127,31 +136,15 @@ Didactics}}
 \parindent=0em
 %\parskip=0.1em
 
-\headerrow
-    {\textbf{Linköping University, Faculty of Science and Engineering}}
+\threeheaderrow
     {\emph{2012--14, 2020--21}}
-\\
-\headerrow
-    {\emph{Computer Engineering}}
-    {120 Credits}
+    {\textbf{Computer Engineering}}
+    {\textbf{Linköping University}}
 \begin{itemize}[noitemsep, topsep=1pt]
-    \item 80 credits in programming courses in a diverse set of languages with
-        a focus on algorithm construction, optimization, low-level code, and
-        hardware
-    \item 40 credits in math courses
-    \item Won a 2013 programming competition in a course to implement a sorting
-        algorithm in microcode for a low-level simulated computer, beating the
-        previous student record and the professor's record.
+    \item  80 credits in programming courses with a focus on algorithm construction, optimization, low-level code, and hardware. Python, \CPP, C, Java, Ada, VHDL, Prolog, Assembly, GNU MathProg, Microcode.  
+    \item 40 credits in math courses; statistics, logic, discrete math.
 \end{itemize}
 \vspace{1em}
-    %\item \( 2/3 \) of credits are in programming in a diverse set of
-    %    languages, with a focus on algorithm construction, optimization,
-    %    low-level code, and hardware. \( 1/3 \) of credits in math courses
-    %\item My 2nd year I won a programming competition in a course,
-    %    writing a sorting algorithm in microcode for
-    %    a low-level simulated computer. It beat the
-    %    professor's record, and outclassed the standing student record
-
 
 \hrule
 \vspace{-0.4em}
@@ -160,57 +153,66 @@ Didactics}}
 %\parskip=0.01em
 
 \headerrow
-    {\textbf{Necro Score Bot}}
-    {\emph{2015--present}}
-\\
-\headerrow
-    {\url{https://github.com/jakkdl/necro\_score\_bot}}
-    {Python, 1500 lines of code}
+%{\textbf{Necro Score Bot}}
+{\href{https://github.com/jakkdl/necro\_score\_bot}{\textbf{Necro Score Bot}}}
+{\emph{2015--present}}
+%\\
+%\headerrow
+    %{Python, 1500 lines of code}
 \begin{itemize}[noitemsep, topsep=1pt]
     \item Pulls leaderboard updates from the Steam API for the indie roguelike
-        rhythm game, \emph{Crypt of the Necrodancer}, posting notable scores
-        to Twitter and/or Discord
-    \item Tags players and detects cheated or bugged scores, notifying the
+        rhythm game, \\ \emph{Crypt of the Necrodancer}, posting notable scores
+        to Twitter and Discord
+    \item Continously running since 2015, six github contributors.
+    \item 240 \href{(https://twitter.com/necro\_score\_bot}{Twitter} followers, 13.2k tweets.
+    \item Tags registered players and detects cheated or bugged scores, notifying the
         developers
-    \item Has thorough error handling, has a config file and command-line
-        flags, and is modular and multithreaded
 \end{itemize}
-
+%\href{http://www.latex-tutorial.com}{LaTeX-Tutorial}
 \vspace{0.5em}
 \headerrow
-    {\textbf{Seat Exchange Bot}}
+    {\href{https://github.com/jakkdl/seat\_exchange}{\textbf{Seat Exchange Game}}}
     {\emph{May--June 2019}}
-\\
-\headerrow
-    {\url{https://github.com/jakkdl/seat\_exchange}}
-    {Python, 3500 lines of code}
 \begin{itemize}[noitemsep, topsep=1pt]
     \item Implements an adaptation of a game from a Korean game show, \emph{The
         Genius}
     \item Supports 40 different commands, varying player counts,
         bot players, simultaneous games, and permissions
-    \item Adheres to PEP coding standards and is object-oriented, modular,
-        and statically typed
 \end{itemize}
 
-
+\vspace{0.5em}
+Complete list of my 20+ projects with descriptions and code on \href{https://github.com/jakkdl/resume}{\emph{my GitHub}}.
 
 \vspace{1em}
 \hrule
 \vspace{-0.4em}
-\subsection*{Core Technical Skills}
+\subsection*{Merits}
 
-\begin{indentsection}{\parindent}
-\hyphenpenalty=1000
-\begin{description*}
-    \item[Languages:]
-        Python, \CPP, C, Ada, shell scripting
-    \item[Tools:]
-        Arch Linux, NeoVim, Git, command line tools (gdb, pdb, mypy, linters)
-    %\item[Secondary languages:]
-    %    Java, VHDL, Prolog, Assembly, GNU MathProg, JavaScript, HTML, Basic
-\end{description*}
-\end{indentsection}
+2011 \textbf{Programming Olympiad}, national qualifiers: 31st / 164 in a 21-way tie \\
+2014 \textbf{MicroCode sorting competition} as part of a university course. Placed \emph{1st} with an average runtime of 903.6 cycles, breaking the professors long-standing record of 948, and smashing the student record at the time. (>1100) \\
+2015 \textbf{Nordic Collegiate Programming Contest} (part of ICPC): 9th/22 at our university, 108th/355 nationally. \\
+\\
+2013 Mensa entrance test: \textbf{IQ>=135} (top 1\%). \\
+2012 Swedish SAT: 2.0/2.0 (top 0.1\%) \\
+2016 Swedish SAT: 1.9/2.0 (top 0.2\%), retook it for fun, competing with a friend
+
+
+%\vspace{1em}
+%\hrule
+%\vspace{-0.4em}
+%\subsection*{Core Technical Skills}
+%
+%\begin{indentsection}{\parindent}
+%\hyphenpenalty=1000
+%\begin{description*}
+%    \item[Languages:]
+%        Python, \CPP, C, Ada, shell scripting
+%    \item[Tools:]
+%        Arch Linux, NeoVim, Git, command line tools (gdb, pdb, mypy, linters)
+%    %\item[Secondary languages:]
+%    %    Java, VHDL, Prolog, Assembly, GNU MathProg, JavaScript, HTML, Basic
+%\end{description*}
+%\end{indentsection}
 %Meriter
 %hösten 2016		Deltagare i SVT’s Genikampen, intervju
 %okt 2016		1.90 poäng på högskoleprovet

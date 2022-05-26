@@ -71,7 +71,7 @@ Merged [Py-Ethereum pull request](https://github.com/ethereum/py-evm/pull/290) [
 [Automatic roller blind](https://vimeo.com/manage/videos/229001221) (video), a simple arduino program \(C\) which runs a motor taken from a tape drive.
 [Youtube subscription downloader](https://github.com/jakkdl/youtube-dlp-subscriptions) forked and improved for personal use.
 [Soundcloud feed downloader and follow recommender](https://github.com/jakkdl/soundcloud_scripts).
-[Tasker scripts](https://github.com/jakkdl/Tasker/) for enforcing habits, tracking sleep and medications, custom pebble menus, and more.
+Over 650 [Tasker scripts](https://github.com/jakkdl/Tasker/) for enforcing habits, tracking sleep and medications, custom Pebble menus, and more.
 [Solvers](https://gist.github.com/jakkdl/cfccaa2511a3e84ecc0d8fb1f2cf3e7e) (Python/GNU MathProg) for a combinatorial puzzle stated by Nick Brown on twitter.
 **Dominion:** [Game length analyzer](https://github.com/jakkdl/dominion\_game\_length) parses bot messages to build a database of matches and their duration to allow statistical analysis of play speed with numpy and matplotlib.
 [Tournament kingdom generator](https://github.com/jakkdl/dominion\_tournament\_tools) used for an in-person tournament such that cards are only used once and we don't run out of tokens, mats, etc.
@@ -86,7 +86,7 @@ Designed the scoring formula for [NecroLab](https://necrolab.com/)
 **2015** [Nordic Collegiate Programming Contest](https://nordic.icpc.io/): Formed a team with 2 work mates and placed [9th/22](https://ncpc15.kattis.com/standings?filter=352) (Team: "Ge Upp") at our university, 108th/355 across all universities.  
 **2011** Kängurun, a swedish math competition: [9th / 155](http://ncm.gu.se/2005) in my division.  
 **2015** [IMPA](https://www.ida.liu.se/projects/impa/new/). Local university competition for ambitious CompSci students. 10th/22 and 12th/22 during 2nd and 3rd round of 2015, [solutions.](https://github.com/jakkdl/online_coding_problems)  
-**2016** Genikampen: National television reality game show. Extremely proud to get hand-picked out of hundreds of applicants. [Trailer](https://www.google.com/url?q=https://www.youtube.com/watch?v=3DFU\_3bgWtrS8)
+**2016** Genikampen: National television reality game show. Extremely proud to get hand-picked out of hundreds of applicants. [Trailer](https://www.youtube.com/watch?v=3DFU\_3bgWtrS8)
 
 **2012** Ljungbergspriset: A 20.000 SEK (1950€) scholarship, one of three graduates at my school to get it.  
 **2013** Mensa entrance test: **IQ>=135** (top 1\%). 
