@@ -8,10 +8,16 @@
 \usepackage[T1]{fontenc}
 \usepackage{textcomp}
 \usepackage{tgpagella}
-\usepackage{hyperref}
 
+\usepackage{href-ul}
 \usepackage{enumitem}
 \usepackage{varwidth}
+
+% format hyperlinks
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+}
 
 \pagestyle{empty}
 \setlength{\tabcolsep}{0em}
@@ -52,6 +58,7 @@
 \newcommand{\CPP}
 {C\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf ++}}
 
+% fix normal plus
 \newcommand{\PLUS}
 {\nolinebreak[4]\hspace{-.05em}\raisebox{.22ex}{\footnotesize\bf +}}
 
@@ -199,28 +206,5 @@ Both fully linted and typed, written in Python. \\
 %\vspace{2em}
 
 \large{{\href{https://github.com/jakkdl/resume}{\textbf{Longer CV}}}} \normalsize{including a full list of my 20\PLUS \ programming projects is available on my GitHub.}
-
-%\vspace{1em}
-%\hrule
-%\vspace{-0.4em}
-%\subsection*{Core Technical Skills}
-%
-%\begin{indentsection}{\parindent}
-%\hyphenpenalty=1000
-%\begin{description*}
-%    \item[Languages:]
-%        Python, \CPP, C, Ada, shell scripting
-%    \item[Tools:]
-%        Arch Linux, NeoVim, Git, command line tools (gdb, pdb, mypy, linters)
-%    %\item[Secondary languages:]
-%    %    Java, VHDL, Prolog, Assembly, GNU MathProg, JavaScript, HTML, Basic
-%\end{description*}
-%\end{indentsection}
-%Meriter
-%hösten 2016		Deltagare i SVT’s Genikampen, intervju
-%okt 2016		1.90 poäng på högskoleprovet
-%mars 2013		41/45 rätt på Mensa IQ test, 135+ IQ (99:e percentilen)
-%mars 2012		2.00 poäng på högskoleprovet
-%september 2012	Tilldelad Ljungbergsstipendiet på 20.000kr
 
 \end{document}
