@@ -50,37 +50,38 @@ Uplift 4G base-station unit tests (Erlang) to work in a virtualized environment.
 ## Projects
 *When not otherwise noted, projects are written in Python.*  
 
-[**Necro Score Bot**](https://github.com/jakkdl/necro\_score\_bot)
-240 [Twitter](https://twitter.com/necro\_score\_bot) followers, 13.2k tweets. In the last 3200 tweets (since july 2019): 3000 favorites, 270 retweets, 383 players of which 36 are tagged. <!--- ids 1526457790948159489 to 1148623206426787840-->
+[**Necro Score Bot**](https://github.com/jakkdl/necro\_score\_bot) [1700 LOC]  
+240 [Twitter](https://twitter.com/necro\_score\_bot) followers, 13.2k tweets. In the last 3200 tweets (since july 2019): 2960 favorites, 270 retweets, 388 players of which 36 are tagged. <!--- ids 1530685368592388096 to 1148623206426787840-->
 Continuosly running since 2015, 6 github contributors.  
-Pulls leaderboard updates from Steam for **Crypt of the Necrodancer**, posting notable scores to Twitter and/or Discord.
+Pulls leaderboard updates from Steam for *Crypt of the Necrodancer*, posting notable scores to Twitter and/or Discord.
 Tags registered players, and detects cheated or bugged scores notifying the developers.
 
-[**Seat Exchange Bot**](https://github.com/jakkdl/seat\_exchange) 
+[**Seat Exchange Bot**](https://github.com/jakkdl/seat\_exchange)  [3350 LOC]
 An implementation of a game from a Korean game show, The Genius.
 With 40 different commands it supports varying player counts, bots, simultaneous games, and permissions.
 Played several dozens of times on a personal discord server as well as IRL.
 
-[Synchronized metronome](https://github.com/jakkdl/random/blob/master/synchronized\_metronome.py) for singing happy birthday over the phone and have it arrive on beat to the recipient.
-My [Linux Dot Files](https://github.com/jakkdl/dotfiles) (>50 config files), created since I started using linux 15 years ago, with a script to sync and copy files.
-Merged [Py-Ethereum pull request](https://github.com/ethereum/py-evm/pull/290) [+115/-104] that cleaned up smelly code.
-[Podcast Archive Fetcher](https://github.com/jakkdl/random/blob/master/podcast\_archive\_mode.py) parses rss for episodes, then continously monitors and adds to MPD playlist.
-[Melatonin self-experiment](https://github.com/jakkdl/calendar_statistics) for finding the optimal dosage.
-[Stepmania playlist generator](https://github.com/jakkdl/random/blob/master/stepmania\_mixtape.py) to substitute actually having to run outside when I practiced for a 5k race.
-[Calendar event trigger](https://github.com/jakkdl/routine\_trigger) (Android/Java) sends an intent on the start of calendar events, to be parsed by tasker and trigger my routine alarms.
-[Automatic roller blind](https://vimeo.com/manage/videos/229001221) (video), a simple arduino program \(C\) which runs a motor taken from a tape drive.
-[Youtube subscription downloader](https://github.com/jakkdl/youtube-dlp-subscriptions) forked and improved for personal use.
-[Soundcloud feed downloader and follow recommender](https://github.com/jakkdl/soundcloud_scripts).
-Over 650 [Tasker scripts](https://github.com/jakkdl/Tasker/) for enforcing habits, tracking sleep and medications, custom Pebble menus, and more.
-[Solvers](https://gist.github.com/jakkdl/cfccaa2511a3e84ecc0d8fb1f2cf3e7e) (Python/GNU MathProg) for a combinatorial puzzle stated by Nick Brown on twitter.
-**Dominion:** [Game length analyzer](https://github.com/jakkdl/dominion\_game\_length) parses bot messages to build a database of matches and their duration to allow statistical analysis of play speed with numpy and matplotlib.
-[Tournament kingdom generator](https://github.com/jakkdl/dominion\_tournament\_tools) used for an in-person tournament such that cards are only used once and we don't run out of tokens, mats, etc.
-[Opening probability calculator](https://github.com/jakkdl/random/blob/master/dominion\_openings.py).
-**Crypt of the Necrodancer:** [Scripts](https://github.com/jakkdl/Crypt_of_the_NecroDancer_mods) used for some of my
-[25 Steam Workshop mods](https://steamcommunity.com/profiles/76561198074553183/myworkshopfiles/?appid=247080).
-Designed the scoring formula for [NecroLab](https://necrolab.com/)
+* [Synchronized metronome](https://github.com/jakkdl/random/blob/master/synchronized\_metronome.py) for singing happy birthday over the phone and have it arrive on beat to the recipient.
+* My [Linux Dot Files](https://github.com/jakkdl/dotfiles) (>50 config files), created since I started using linux 15 years ago, with a script to sync and copy files.
+* Merged [Py-Ethereum pull request](https://github.com/ethereum/py-evm/pull/290) [+115/-104] that cleaned up smelly code.
+* Over 650 [Tasker scripts](https://github.com/jakkdl/Tasker/) for enforcing habits, tracking sleep and medications, custom Pebble menus, and more.
+* [Podcast Archive Fetcher](https://github.com/jakkdl/random/blob/master/podcast\_archive\_mode.py) parses rss for episodes, then continously monitors and adds to MPD playlist.
+* [Melatonin self-experiment](https://github.com/jakkdl/calendar_statistics) for finding the optimal dosage.
+* [Stepmania playlist generator](https://github.com/jakkdl/random/blob/master/stepmania\_mixtape.py) to substitute actually having to run outside when I practiced for a 5k race.
+* [Calendar event trigger](https://github.com/jakkdl/routine\_trigger) (Android/Java) sends an intent on the start of calendar events, to be parsed by tasker and trigger my routine alarms.
+* [Automatic roller blind](https://vimeo.com/manage/videos/229001221) (video), a simple arduino program \(C\) which runs a motor taken from a tape drive.
+* [Youtube subscription downloader](https://github.com/jakkdl/youtube-dlp-subscriptions) forked and improved for personal use.
+* [Soundcloud feed downloader and follow recommender](https://github.com/jakkdl/soundcloud_scripts).
+* [Solvers](https://gist.github.com/jakkdl/cfccaa2511a3e84ecc0d8fb1f2cf3e7e) (Python&GNU MathProg) for a combinatorial puzzle stated by Nick Brown on twitter.
+* **Dominion:** 
+  * [Game length analyzer](https://github.com/jakkdl/dominion\_game\_length) parses bot messages to build a database of matches and their duration to allow statistical analysis of play speed with numpy and matplotlib.
+  * [Tournament kingdom generator](https://github.com/jakkdl/dominion\_tournament\_tools) used for an in-person tournament such that cards are only used once and we don't run out of tokens, mats, etc.
+  * [Opening probability calculator](https://github.com/jakkdl/random/blob/master/dominion\_openings.py).
+* **Crypt of the Necrodancer:**
+  * [Scripts](https://github.com/jakkdl/Crypt_of_the_NecroDancer_mods) used for some of my [25 Steam Workshop mods](https://steamcommunity.com/profiles/76561198074553183/myworkshopfiles/?appid=247080).
+  * Designed the scoring formula for [NecroLab](https://necrolab.com/)
 
-## Competitions
+## Merits
 **2014** [MicroCode sorting competition](https://www.isy.liu.se/en/edu/kurs/TSEA83/laboration/lab\_mikro.html) as part of a university course. Placed **1st** with an average runtime of 903.6 cycles, breaking the professors long-standing record of 948, and smashing the student record at the time. (>1100)  
 **2011** Programming Olympiad, national qualifiers: [31st / 164](https://progolymp.se/2011/skolkval/resultat-mer) (in a 21-way tie)  
 **2015** [Nordic Collegiate Programming Contest](https://nordic.icpc.io/): Formed a team with 2 work mates and placed [9th/22](https://ncpc15.kattis.com/standings?filter=352) (Team: "Ge Upp") at our university, 108th/355 across all universities.  
@@ -92,8 +93,10 @@ Designed the scoring formula for [NecroLab](https://necrolab.com/)
 **2013** Mensa entrance test: **IQ>=135** (top 1\%). 
 
 ## Hobbies
-**Crypt of the NecroDancer** online Racing league [(CoNDOR)](https://condor.live/) moderator. Release and DLC playtester. **Dominion** [League](https://dominionleague.org) moderator. Peak at top-200 on ladder, top-50 in the league. Winner of [Dominion: Creative](https://www.youtube.com/watch?v=xGnn6WoPi-c) and [Big Games 2](https://www.youtube.com/watch?v=dRprh77drV0). [Best player in EA](https://twitter.com/LinchZhang/status/1520843927661813760). **Oxygen Not Included** [custom map](https://github.com/jakkdl/Oxygen-Not-Included\_Mods) to mimic Minecrafts "Skyblock" mod.
+**Crypt of the NecroDancer** Online Racing league [(CoNDOR)](https://condor.live/) moderator. Release and DLC playtester.  
+**Dominion** [League](https://dominionleague.org) moderator. Peak at top-200 on ladder, top-50 in the league. Winner of [Dominion: Creative](https://www.youtube.com/watch?v=xGnn6WoPi-c) and [Big Games 2](https://www.youtube.com/watch?v=dRprh77drV0). [Best player in EA](https://twitter.com/LinchZhang/status/1520843927661813760).  
+**Oxygen Not Included** [custom map](https://github.com/jakkdl/Oxygen-Not-Included\_Mods) to mimic Minecrafts "Skyblock" mod.  
 Placed 1/13 in **Genius Invitational**, an Online Reality Game lasting 6 months, [solvers and game ideas](https://github.com/jakkdl/The_Genius).
 Taught myself game theory and solved MonUnrail (a variant of [Monorail](https://the-genius-show.fandom.com/wiki/Monorail), memorizing it's nimbers with Anki.
 
-National level trombonist during school. Can identify ~all common swedish birds on sight and/or song, now learning insects. Love swing dancing, primarily Bugg, Fox and West Coast Swing - three podium placements in club competitions. Veg*n for 15 years. Took the Giving What We Can pledge in 2017. Likes nail polish and flowy skirts. Types on fancy keyboards with fancy layouts. Prefer my house plants to be succulents and vines.
+National level trombonist during school. Can identify ~all common swedish birds on sight and/or song, now learning insects. Love swing dancing, primarily Bugg, Fox and West Coast Swing - three podium placements in club competitions. Veg*n for 15 years. Took the Giving What We Can pledge in 2017. Types on fancy keyboards with fancy layouts. Prefer my house plants to be succulents and vines.
