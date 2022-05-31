@@ -50,13 +50,13 @@ Uplift 4G base-station unit tests (Erlang) to work in a virtualized environment.
 ## Projects
 *When not otherwise noted, projects are written in Python.*  
 
-[**Necro Score Bot**](https://github.com/jakkdl/necro\_score\_bot) [1700 LOC]  
+[**Necro Score Bot**](https://github.com/jakkdl/necro\_score\_bot) [1700 LoC]  
 240 [Twitter](https://twitter.com/necro\_score\_bot) followers, 13.2k tweets. In the last 3200 tweets (since july 2019): 2960 favorites, 270 retweets, 388 players of which 36 are tagged. <!--- ids 1530685368592388096 to 1148623206426787840-->
 Continuosly running since 2015, 6 github contributors.  
 Pulls leaderboard updates from Steam for *Crypt of the Necrodancer*, posting notable scores to Twitter and/or Discord.
 Tags registered players, and detects cheated or bugged scores notifying the developers.
 
-[**Seat Exchange Bot**](https://github.com/jakkdl/seat\_exchange)  [3350 LOC]
+[**Seat Exchange Bot**](https://github.com/jakkdl/seat\_exchange)  [3350 LoC]
 An implementation of a game from a Korean game show, The Genius.
 With 40 different commands it supports varying player counts, bots, simultaneous games, and permissions.
 Played several dozens of times on a personal discord server as well as IRL.
