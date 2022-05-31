@@ -1,3 +1,7 @@
 *.log
 *.aux
 *.out
+.SRCINFO
+*.dvi
+*.fdb_latexmk
+*.fls
