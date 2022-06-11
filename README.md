@@ -1,7 +1,7 @@
 # John Litborn
 john.litborn@pm.me | Linköping, Sweden
 
-*Software developer, veteran linux user, 20+ programming side projects, scored top 0.1\% in Swedish SAT, participated in The Programming Olympiads and several other competitions*
+20+ programming side projects, 15 years linux experience, scored top 0.1% in Swedish SAT, participated in The Programming Olympiads and several other competitions.
 
 ## Professional experience
 <table align="center">
@@ -38,11 +38,11 @@ Uplift 4G base-station unit tests (Erlang) to work in a virtualized environment.
 </table>
 
 ## Education
-**2009-2012** Higher Education, Science with extra math&programming (C#). Grade average 4.9/5   
+**2009-2012** Upper Secondary School, Natural Science with extra math & programming. C#, database construction, discrete math. Grade average 19.5/20, top mark in 31/35 courses.  
 **2012** Swedish SAT: 2.0/2.0 (top 0.1\%)  
 **2012-14, 2020-21** Computer Engineering, 120 Credits **Linköping University**. Grade Average 4.1/5  
 * 80 credits in programming courses with a focus on algorithm construction, optimization, low-level code, and hardware. Python, C++, C, Java, Ada, VHDL, Prolog, Assembly, GNU MathProg, Microcode.  
-* Major projects include: [Mapping robot](https://github.com/jakkdl/TSEA29_mapping_robot): Atmega1284p processors and multiple sensors \(C\). BIT.TRIP clone (VHDL), [Liero clone](https://github.com/jakkdl/TDDC69-Kasfeq) (Java), [XPilot AI](https://github.com/jakkdl/TDDD63-XPilot-AI) (Python).
+* Major projects include: [Mapping robot](https://github.com/jakkdl/TSEA29_mapping_robot): Atmega1284p processors and multiple sensors \(C\), BIT.TRIP clone (VHDL), [Liero clone](https://github.com/jakkdl/TDDC69-Kasfeq) (Java), [XPilot AI](https://github.com/jakkdl/TDDD63-XPilot-AI) (Python).
 * 40 credits in math courses; statistics, logic, discrete math.
 
 **2016** Swedish SAT: 1.9/2.0 (top 0.2\%). Retook it for fun, competing with a friend.
