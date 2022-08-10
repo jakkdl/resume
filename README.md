@@ -6,6 +6,23 @@ john.litborn@pm.me | Linköping, Sweden
 ## Professional experience
 <table align="center">
     <tr>
+        <td><b>Jul 2022-</b></td>
+        <td>Freelance Software Developer</td>
+        <td>Anthropic</td>
+    </tr>
+    <tr><td colspan="3">
+    Build open-source dev tooling requested by Anthropic.
+    Wrote a Flake8 linter plugin for the Trio library in 4 weeks, that's already caught several bugs in deployed code.
+    </td></tr>
+    <tr>
+        <td><b>Mar-Oct 2017</b></td>
+        <td>Software Engineer, test development</td>
+        <td>Ericsson, HiQ</td>
+    </tr>
+    <tr><td colspan="3">
+    Uplift 4G base-station unit tests (Erlang) to work in a virtualized environment. Team member responsible for Git, Linux, Python & Shell scripts, and team pages on the internal wiki.
+    </tr></td>
+    <tr>
         <td><b>2013-2017</b></td>
         <td>Amanuensis, Course assistant, Tool Developer</td>
         <td>Linköping University</td>
@@ -18,23 +35,15 @@ john.litborn@pm.me | Linköping, Sweden
         <td>Course Developer, Engine&API development</td>
         <td>Linköping University</td>
     </tr>
-<tr><td colspan="3">
-Got frustrated by a bad course and when giving feedback was offered a summer job to improve it.
-</tr></td>
-<tr><td colspan="3">
-2013: <a href="https://github.com/jakkdl/TDDD63-course-content">Overhauled</a> assignments, documentation, instructions and maps. Minor bugfixes to the API. (Python, HTML)
-</tr></td>
-<tr><td colspan="3">
-2014: <a href="https://github.com/jakkdl/XPilot-AI\_LiU\_fork">Major updates</a> to the API as well as the netcode between client & server (Python, C).
-</tr></td>
-    <tr>
-        <td><b>Mar-Oct 2017</b></td>
-        <td>Software Engineer, test development</td>
-        <td>Ericsson, HiQ</td>
-    </tr>
-<tr><td colspan="3">
-Uplift 4G base-station unit tests (Erlang) to work in a virtualized environment. Team member responsible for Git, Linux, Python & Shell scripts, and team pages on the internal wiki.
-</tr></td>
+    <tr><td colspan="3">
+    Got frustrated by a bad course and when giving feedback was offered a summer job to improve it.
+    </tr></td>
+    <tr><td colspan="3">
+    2013: <a href="https://github.com/jakkdl/TDDD63-course-content">Overhauled</a> assignments, documentation, instructions and maps. Minor bugfixes to the API. (Python, HTML)
+    </tr></td>
+    <tr><td colspan="3">
+    2014: <a href="https://github.com/jakkdl/XPilot-AI\_LiU\_fork">Major updates</a> to the API as well as the netcode between client & server (Python, C).
+    </tr></td>
 </table>
 
 ## Education
@@ -50,13 +59,16 @@ Uplift 4G base-station unit tests (Erlang) to work in a virtualized environment.
 ## Projects
 *When not otherwise noted, projects are written in Python.*  
 
-[**Necro Score Bot**](https://github.com/jakkdl/necro\_score\_bot) [1200 LoC]  
+[**Flake8-Trio**](https://github.com/ZacHD/flake8-trio) [1,400 LoC, 3,500 LoC including tests]  
+Traverses the parsed Abstract Syntax Tree of python code written with the async concurrency library [Trio](https://trio.readthedocs.io/en/stable/) library, warning about bad code practices. Available on [PyPI](https://pypi.org/project/flake8-trio/).
+
+[**Necro Score Bot**](https://github.com/jakkdl/necro\_score\_bot) [1,200 LoC]  
 240 [Twitter](https://twitter.com/necro\_score\_bot) followers, 13.2k tweets. In the last 3200 tweets (since july 2019): 2960 favorites, 270 retweets, 388 players of which 36 are tagged. <!--- ids 1530685368592388096 to 1148623206426787840-->
 Continuosly running since 2015, 6 github contributors.  
 Pulls leaderboard updates from Steam for *Crypt of the Necrodancer*, posting notable scores to Twitter and/or Discord.
 Tags registered players, and detects cheated or bugged scores notifying the developers.
 
-[**Seat Exchange Bot**](https://github.com/jakkdl/seat\_exchange)  [2600 LoC]
+[**Seat Exchange Bot**](https://github.com/jakkdl/seat\_exchange)  [2,600 LoC]
 An implementation of a game from a Korean game show, The Genius.
 With 40 different commands it supports varying player counts, bots, simultaneous games, and permissions.
 Played several dozens of times on a personal discord server as well as IRL.
