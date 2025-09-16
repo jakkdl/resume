@@ -13,6 +13,10 @@
 \usepackage{enumitem}
 \usepackage{varwidth}
 
+% href-ul depends on ulem for underlining capabilities, but that package also
+% converts all italics to underlining. So we want to undo that.
+\normalem
+
 % format hyperlinks
 \hypersetup{
     colorlinks=true,
@@ -90,12 +94,13 @@
 \parindent=0em
 
 \threeheaderrow
-{\emph{July 2022--current}}
+{\emph{July 2022--Aug 2025}}
 {\textbf{Freelance Software Developer}}
 {\textbf{Anthropic}}
 \begin{itemize}[noitemsep, topsep=1pt]
     \item Build open-source dev tooling requested by Anthropic.
-    \item Wrote a Flake8 linter plugin for the Trio library in 4 weeks, that's already caught several bugs in deployed code.
+    \item Wrote {\href{https://github.com/python-trio/flake8-async}{flake8-async}}, a static analysis tool for linting structured concurrency async code.
+    \item Contributed to Pytest, Black, Trio, and 20+ other open source projects.
 \end{itemize}
 \vspace{0.5em}
 
@@ -106,7 +111,7 @@
 \begin{itemize}[noitemsep, topsep=1pt]
     \item Updated 4G base-station unit tests written in
         Erlang to work in a virtualized environment
-    \item Supported core Linux and Git skills for other team members, writing automation scripts in Pythno \& shell
+    \item Supported core Linux and Git skills for other team members, writing automation scripts in Python \& shell
 \end{itemize}
 \vspace{0.5em}
 \threeheaderrow
@@ -167,12 +172,12 @@
 
 \headerrow
 {\href{https://github.com/jakkdl/necro\_score\_bot}{\textbf{Necro Score Bot}} [1200 lines]}
-{\emph{2015--present}}
+{\emph{2015--2023}}
 \begin{itemize}[noitemsep, topsep=1pt]
     \item Pulls leaderboard updates from the Steam API for the indie roguelike
         rhythm game \\ Crypt of the Necrodancer, posting notable scores
         to Twitter and Discord.
-    \item Continously running since 2015, six github contributors.
+    \item Ran continously between 2015 and 2023 with six github contributors.
     \item 240 \href{(https://twitter.com/necro\_score\_bot}{Twitter} followers, 13.2k tweets, {\raise.27ex\hbox{$\scriptstyle\sim$}}12.1k likes.
     \item Tags registered players and detects cheated or bugged scores, notifying the
         developers
@@ -205,12 +210,5 @@ Both fully linted and typed, written in Python. \\
 2013 \textbf{Mensa entrance test}: IQ 135\PLUS \ (top 1\%). \\
 2012 \textbf{Swedish SAT}: 2.0/2.0 (top 0.1\%) \\
 2016 \textbf{Swedish SAT}: 1.9/2.0 (top 0.2\%), retook it for fun with a friend
-
-\vspace{1em}
-\hrule
-\vspace{1em}
-%\vspace{2em}
-
-\large{{\href{https://github.com/jakkdl/resume}{\textbf{Complete CV}}}} \normalsize{including a full list of my 20\PLUS \ programming projects is available on my GitHub.}
 
 \end{document}
